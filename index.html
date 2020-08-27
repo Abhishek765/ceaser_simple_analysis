@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="ceaser">
+        <h1>Caesar Cipher</h1>
+       
+        <form>
+            <label>Cipher text:</label>
+            <textarea class="encryptCeaser" name='Ciphertext' placeholder="Enter Cipher text"></textarea>
+            <label></label>
+            <!-- <input type='number' name='shift' value='3' min='1' max='26'> -->
+            <input type='submit' value='Decrypt Ciphertext'>
+        </form>
+        <h2>Output</h2>
+        <div class='outputCeaser'>
+            <p class="plaintext">Example 1</p>
+            <p class="plaintext">Example 2</p>
+            <p class="plaintext">Example 3</p>
+            <p class="plaintext">Example 4</p>
+            <p class="plaintext">Example 5</p>
+            <p class="plaintext">Example 6</p>
+            <p class="plaintext">Example 7</p>
+            <p class="plaintext">Example 8</p>
+            <p class="plaintext">Example 9</p>
+            <p class="plaintext">Example 10</p>
+        </div>
+    </div>
+
+    
+    <div class="testceaser">
+        <h1>Plain Text</h1>
+       
+        <form class="testForm">
+            <label id = "guess">Enter Your Guess word:</label>
+            <textarea class="encryptCeaser" name='plaintext' placeholder="Enter Plaintext"></textarea>
+            <label>Key:</label>
+            <!-- <input type='number' name='shift' value='3' min='1' max='26'> -->
+            <input type='submit' class = "submitBtn" value='Test Your Answer'>
+        </form>
+        <h2>Output</h2>
+        <div id='tesCeaser'>
+        </div>
+    </div>
+
+    <script src='main.js'></script>
+
+   
+</body>
+
+</html>

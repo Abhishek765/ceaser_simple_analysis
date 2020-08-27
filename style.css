@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+h1,h2 { color: rgb(0, 128, 117);}
+label{display:block;}
+
+#outputCeaser,#tesCeaser,.outputCeaser {
+  font-family: 'Special Elite', cursive;
+  font-size: 32px;
+  color: rgb(202, 83, 83);
+}
+
+.ceaser{
+    padding: 56px;
+}
